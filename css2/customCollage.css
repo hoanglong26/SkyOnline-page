@@ -1,0 +1,91 @@
+﻿/*
+This CSS is really just for this demo page
+But take a look at the comments to see how I set padding
+and borders on the images
+*/
+
+.Collage{
+
+	/*This is where you set the padding you want between the images*/
+	padding:10px;
+
+}
+.Collage img{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:bottom;
+	opacity:1;
+
+	/*This is where you set the border you want for the image*/
+	border:6px solid #EEEBEB;
+}
+
+
+/* In this example, this is the main item being resized */
+.Image_Wrapper{
+	/* to get the fade in effect, set opacity to 0 on the first element within the gallery area */
+	opacity:0;
+	-moz-box-shadow:0px 2px 4px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow:0px 2px 4px rgba(0, 0, 0, 0.1);
+	box-shadow:0px 2px 4px rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: auto;
+
+}
+
+.Caption{
+	font-size: 12px;
+	font-weight: 500;
+	color: #f9f9f9;
+	line-height: 1.8em;
+	margin: 0.5em 0;
+	font-family: 'Roboto', sans-serif;
+	top:0px !important;
+	padding-left: 6px;
+}
+.Caption_Content{
+	/* padding:10px; */
+	color:#FFF;
+	padding:20px;
+}
+
+.arriv-info > p{
+	font-size: 18px;
+
+}
+
+.Caption_Background{<div class="arriv-info">
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+
+.crt-btn a {
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 6px 16px;
+    margin-top: 8px;
+    font-size: 0.8725em;
+    font-weight: 400;
+    color: #f9f9f9;
+    border: 2px solid #f9f9f9;
+    background: none;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.crt-btn{
+	display: inline-block;
+	margin: 2px;
+}
+
+.crt-btn a:hover {
+    background: #E74C3C;
+    border: 1px solid #ff6978;
+}
